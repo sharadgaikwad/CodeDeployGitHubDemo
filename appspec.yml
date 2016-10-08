@@ -1,5 +1,0 @@
-﻿version: 0.1
-os: windows
-files:
-  - source: WebApp\index.html
-    destination: C:\inetpub\wwwroot
