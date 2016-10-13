@@ -1,6 +1,9 @@
 version: 0.0
-  os: windows
-  files:
- -  - source: WebApp\index.html
- +  - source: WebApp
-      destination: C:\inetpub\wwwroot
+os: windows
+files:
+  - source: webapp
+    destination: C:\inetpub\wwwroot
+hooks:
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 900
