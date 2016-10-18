@@ -2,8 +2,4 @@ version: 0.0
 os: windows
 files:
   - source: webapp
-    destination: C:\inetpub\wwwroot
-hooks:
-  BeforeInstall:
-    - location: \before-install.bat
-      timeout: 900
+    destination: C:\inetpub\wwwroot\OA\
